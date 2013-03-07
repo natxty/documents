@@ -1,3 +1,4 @@
 documents/*
 .idea
 uploads/*
+application/config/database.php
