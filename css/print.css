@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+
+#top {
+	width: 100%;
+	height: 35px;
+	background: #000;
+	color: #efefef;
+	margin-bottom: 20px;
+}
+
+#header {
+	height: 35px;
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#header a {
+	font: 14px/35px Georgia, serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+.tag {
+	line-height: 18px;
+	background: #ccc;
+	padding: 0 5px;
+	margin: 0 3px 0 0;
+}
+
+#template td {
+	border-bottom: 1px solid #ccc;
+}
+
+/*Lots */
+.hit {
+	color: green;
+}
+
+.miss {
+	color: red;
+}
+
+.lots {
+	padding: 10px;
+}
+
+.ltitle {
+	font-weight: bold;
+}
+
+.documents {
+	padding: 5px 0 0 20px;
+}
+table.coredata th, table.docdata th, table.missing th {
+	background: #efefef;
+	border: 1px solid #ccc;	
+}
+table.coredata td, table.docdata td, table.missing td {
+	border: 1px solid #ccc;
+}
+
+
+table {
+	width: 100%;
+	padding: 20px 0;
+}
+
+td {
+	padding: 3px;
+}

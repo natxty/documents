@@ -1,0 +1,154 @@
+body {
+  background:#C1C1C1 url(../images/body_bkgd.gif) top left repeat-x;
+  color: #242424;
+  font-size: 12px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+h1 { margin: 0; }
+
+a {
+  color: #2a609c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+td, th {
+  font-size: 1em;
+  text-align: left;
+  vertical-align: top;
+	background:#F4F4F4;
+	padding: 3px 3px 3px 5px;
+	border: 1px solid #fff;
+
+	
+}
+
+thead td, th {
+  background-color: #DADADB;
+  padding: 3px 3px 3px 5px;
+  border: 1px solid #fff;
+  color: rgb(49, 49, 49);
+  font-weight: bold;
+  font-size:12px;
+  line-height: 16px;
+}
+
+th a {
+	color: rgb(49, 49, 49);
+}
+
+td {
+	
+}
+
+.nav_menu {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.full_menu {
+  font-size: 1.1em;
+  list-style-type: square;
+}
+
+
+
+.nowrap { white-space:nowrap; }
+
+.alert { padding: 10px; background-color: red; border: 1px #CCCCCC solid; }
+.alert, .alert a { font-weight: bold; color: white; }
+
+.status_message { padding: 10px; background-color: #CCCCFF; border: 1px #CCCCCC solid; }
+
+/* CSS Prettification 05-11-2011 */
+
+#header {
+	width: 960px;
+	height: 129px;
+	background: #011e3c;
+}
+
+#pagewrap {
+	width: 960px;
+	background:white url('../images/bg_pagewrap.png') top left no-repeat;
+}
+
+#innerwrap {
+	padding: 10px 30px;
+	min-height: 400px;
+}
+
+#innerwrap h3 {
+	width: 90%;
+	padding-left: 5px;
+	background: url('../images/bg_line_repeat.png') bottom left repeat-x;
+}
+#innerwrap h1 {
+	padding-top: 30px;
+	color:#999;
+}
+
+th.editLot-ttl {
+
+	text-transform:uppercase;
+	width: 150px;
+}
+
+td.editLot {
+	padding-left: 20px;
+}
+
+tr.spacerRow {
+	height: 10px!important;
+}
+
+tr.spacerRow th{
+	background-image:none!important;
+	background-color:transparent!important;
+	border: 0px solid #fff!important;
+}
+
+tr.spacerRow td{
+	border: 0px solid #fff!important;
+}
+
+/* extras, downloads, nsc 06/09/2011 */
+.ftptable {
+	clear: both;
+}
+
+#breadcrumbs {
+	margin: 10px 5px;	
+}
+
+#breadcrumbs form {
+	display: inline;
+}
+
+#breadcrumbs ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#breadcrumbs li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.ftp label {
+	padding-right: 10px;
+}
+
+
+
+
+
+

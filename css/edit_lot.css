@@ -1,0 +1,7 @@
+.demoHeaders { margin-top: 2em; }
+#dialog_link, .lifecodes-button {padding: .7em 1em .5em 25px;text-decoration: none;position: relative;}
+#dialog_link span.ui-icon, .lifecodes-button span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+ul#icons {margin: 0; padding: 0;}
+ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+ul#icons span.ui-icon {float: left; margin: 0 4px;}
+.lifecodes th, .lifecodes td { border: 1px #EEEEEE solid; padding: 8px; text-align: left; }

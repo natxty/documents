@@ -1,0 +1,10 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^localhost$
+RewriteCond $1 !^(index\.php|favicon\.ico|images|css|documents|scripts|_dev_temp|_shared|uploads|robots\.txt)
+RewriteRule ^(.*)$ /genprobe/myadmin/index.php/$1 [L]
+
+RewriteCond %{HTTP_HOST} !^localhost$
+RewriteCond $1 !^(index\.php|favicon\.ico|images|css|documents|scripts|_dev_temp|_phpmyadmin|_shared|uploads|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
